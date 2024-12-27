@@ -1,0 +1,97 @@
+#designerVersusDeveloper {
+    padding: 100px;
+}
+
+.toggle_wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+    height: 50px;
+    border-radius: 100px;
+    box-shadow: 0 0 4px 4px inset rgba(0, 0, 0, 0.1);
+}
+
+.background_container {
+    width: 100%;
+    height: 100%;
+}
+
+.sky_gradient {
+    width: 100%;
+    height: 100%;
+    background-color: #2873B9;
+}
+
+.gradient_circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.gradient_circle:first-of-type {
+    top: -25px;
+    left: -50px;
+    background-color: #5F97CA;
+}
+
+.gradient_circle:nth-of-type(2) {
+    top: -25px;
+    left: -35px;
+    background-color: #4B8BC6;
+    opacity: 0.3;
+}
+
+.gradient_circle:nth-of-type(3) {
+    top: -25px;
+    left: -20px;
+    background-color: #3B7FC1;
+    opacity: 0.3;
+}
+
+.cloud_container_0 {
+
+}
+
+.cloud {
+    position: absolute;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #A6C8EA;
+}
+
+.cloud:first-of-type {
+    top: -6px;
+    right: -10px;
+}
+
+.cloud:nth-of-type(2) {
+    width: 20px;
+    height: 20px;
+    top: 13px;
+    right: 11px;
+}
+
+.cloud:nth-of-type(3) {
+    top: 17px;
+    right: 16px;
+}
+
+.cloud:nth-of-type(4) {
+    width: 10px;
+    height: 10px;
+    top: 27px;
+    right: 40px;
+}
+
+.cloud:nth-of-type(5) {
+    top: 27px;
+    right: 40px;
+}
+
+.cloud:nth-of-type(6) {
+    top: 27px;
+    right: 40px;
+}
