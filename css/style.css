@@ -7,7 +7,7 @@
     background: black;
 }
 
-header {
+#header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -21,14 +21,58 @@ header {
 }
 
 .logo {
-    color: #1023C1;
+    height: 32px;
 }
 
 .menu {
+    position: relative;
+}
+
+.menu h3 {
+    border-radius: 2px;
+    padding: 4px 4px 2px 4px;
+    font-family: "Pixelify Sans", serif;
     font-weight: 700;
     cursor: pointer;
     color: black;
+}
+
+.menu h3:hover {
+    background-color: black;
+    color: white;
+}
+
+.menu.active h3 {
+    background-color: black;
+    color: white;
+}
+
+.menu .sub_menu {
+    display: none;
+    min-width: 150px;
+    position: absolute;
+    bottom: -48px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 8px;
+    font-family: "Pixelify Sans", serif;
+    font-weight: 400;
+}
+
+.menu .sub_menu.active {
+    display: block;
+}
+
+.menu .sub_menu a {
+    border-radius: 2px;
+    padding: 2px;
+    color: black;
     text-decoration: none;
+}
+
+.menu .sub_menu a:hover {
+    background-color: black;
+    color: white;
 }
 
 /*/////*/
