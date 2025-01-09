@@ -4,9 +4,10 @@
 	<meta charset="UTF-8">
 	<link rel="icon" href="asset/img/favicon_io/favicon-32x32.png">
 	<!--    Pixlify Sans font-->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+	<!-- Neo둥근모 -->
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/neodgm/neodgm-webfont@1.600/neodgm/style.css">
+	<!-- Neo둥근모 Code -->
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/neodgm/neodgm-webfont@1.600/neodgm_code/style.css">
 	<!--	Style CSS-->
 	<link href="css/style.css" rel="stylesheet">
 	<title>DMT - domathang</title>
@@ -14,11 +15,11 @@
 <body>
 <div id="domathangProject">
 	<header id="header">
-		<img class="logo" src="asset/img/dmt_logo_black_200png-01.png" alt="logo" />
+		<img class="logo" src="asset/img/dmt_logo_black_200png-01.png" alt="logo"/>
 		<div class="menu">
 			<h3>DOMATHANG</h3>
 			<div class="sub_menu">
-				<a href="pages/aboutUs.html">Meet Us</a>
+				<a id="aboutUsLink">Meet Us</a>
 			</div>
 		</div>
 		<div class="menu">
@@ -27,7 +28,77 @@
 	</header>
 
 	<section>
+		<div id="aboutUs" class="modal">
+			<div class="top">
+				<button class="close_modal">
+					<span></span>
+					<span></span>
+				</button>
+				<div class="divide_line_container">
+					<hr class="divide_line"/>
+					<hr class="divide_line"/>
+					<hr class="divide_line"/>
+				</div>
 
+				<h2 class="title">About Us</h2>
+
+				<div class="divide_line_container">
+					<hr class="divide_line"/>
+					<hr class="divide_line"/>
+					<hr class="divide_line"/>
+				</div>
+			</div>
+			<div class="contents_wrapper">
+				<div class="left_content">
+					<img class="au_logo" src="asset/img/dmt_logo_black_200png-01.png" alt="logo"/>
+					<h1>
+						About Us
+					</h1>
+					<p class="content">
+						domathang은 다른 이의 시선에 휘둘리지 않고, 나만의 방식으로 삶을 살아가는 사람들을 위한 브랜드입니다.<br/>
+						해방과 진정성을 핵심 가치로 합니다.
+						두려움에서 벗어나 자신만의 vibe를 만들고 표현하는 삶을 지지합니다.
+						자유로워진 당신의 모습은 주변에 긍정적인 변화를 일으킵니다.
+						우리는 당신의 해방된 모습이 세상에 영감을 줄 수 있다고 믿습니다.
+						domathang은 Web Developer KCI, Graffiti Writer DOMA, Artist G4NCHUP 과 파트너십을 맺고 있습니다.
+					</p>
+					<div class="social_icon_wrapper">
+						<a href="https://www.instagram.com/domathang.one">
+							<img src="asset/icon/insta_pixel.png" alt="instagram"/>
+						</a>
+						<a href="mailto:graffiti.lab.729@gamil.com">
+							<img src="asset/icon/mail_pixel.png" alt="email"/>
+						</a>
+					</div>
+				</div>
+				<div class="right_content">
+					<div class="portrait_frame dev">
+						<div class="partner_type">
+							<span>Web Developer</span>
+						</div>
+						<div class="name_tag">
+							<span>KCI</span>
+						</div>
+					</div>
+					<div class="portrait_frame graffiti_writer">
+						<div class="partner_type">
+							<span>Graffiti Writer</span>
+						</div>
+						<div class="name_tag">
+							<span>DOMA</span>
+						</div>
+					</div>
+					<div class="portrait_frame rapper">
+						<div class="partner_type">
+							<span>Artist</span>
+						</div>
+						<div class="name_tag">
+							<span>G4NCHUP</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 </div>
 

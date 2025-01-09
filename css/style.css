@@ -1,5 +1,10 @@
 @import "reset.css";
 @import "meme.css";
+@import "aboutUs.css";
+
+
+@import url('//cdn.jsdelivr.net/gh/neodgm/neodgm-webfont@1.600/neodgm/style.css');
+@import url('//cdn.jsdelivr.net/gh/neodgm/neodgm-webfont@1.600/neodgm_code/style.css');
 
 #domathangProject {
     width: 100%;
@@ -21,6 +26,7 @@
 }
 
 .logo {
+    width: 89px;
     height: 32px;
 }
 
@@ -31,7 +37,7 @@
 .menu h3 {
     border-radius: 2px;
     padding: 4px 4px 2px 4px;
-    font-family: "Pixelify Sans", serif;
+    font-family: "NeoDunggeunmo";
     font-weight: 700;
     cursor: pointer;
     color: black;
@@ -52,10 +58,13 @@
     min-width: 150px;
     position: absolute;
     bottom: -48px;
+    z-index: 100;
     background-color: white;
     border-radius: 2px;
+    border: 1px solid black;
     padding: 8px;
-    font-family: "Pixelify Sans", serif;
+    box-shadow: 2px 2px 0 0 black;
+    font-family: "NeoDunggeunmo";
     font-weight: 400;
 }
 
