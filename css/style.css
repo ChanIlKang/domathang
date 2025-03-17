@@ -47,7 +47,7 @@
     color: white;
 }
 
-.menu.activate h3 {
+.menu.active h3 {
     background-color: #121212;
     color: white;
 }
@@ -65,9 +65,10 @@
     box-shadow: 2px 2px 0 0 #121212;
     font-family: "NeoDunggeunmo";
     font-weight: 400;
+    cursor: pointer;
 }
 
-.menu .sub_menu.activate {
+.menu .sub_menu.active {
     display: block;
 }
 
